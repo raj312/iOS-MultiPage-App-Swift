@@ -12,6 +12,9 @@
 		35DA2EC2203263A7002AD0C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DA2EC0203263A7002AD0C5 /* Main.storyboard */; };
 		35DA2EC4203263A7002AD0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DA2EC3203263A7002AD0C5 /* Assets.xcassets */; };
 		35DA2EC7203263A7002AD0C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DA2EC5203263A7002AD0C5 /* LaunchScreen.storyboard */; };
+		35DA2ED520326E4B002AD0C5 /* bg-image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35DA2ED420326E4B002AD0C5 /* bg-image.jpeg */; };
+		35DA2EDB2032744C002AD0C5 /* homeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DA2EDA2032744C002AD0C5 /* homeIcon.png */; };
+		35DA2EDD203274E6002AD0C5 /* Button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DA2EDC203274E6002AD0C5 /* Button2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		35DA2EC3203263A7002AD0C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35DA2EC6203263A7002AD0C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35DA2EC8203263A7002AD0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35DA2ED420326E4B002AD0C5 /* bg-image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-image.jpeg"; sourceTree = "<group>"; };
+		35DA2EDA2032744C002AD0C5 /* homeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeIcon.png; sourceTree = "<group>"; };
+		35DA2EDC203274E6002AD0C5 /* Button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,49 @@
 		35DA2EBB203263A7002AD0C5 /* RajPatel_Assignment1 */ = {
 			isa = PBXGroup;
 			children = (
-				35DA2EBC203263A7002AD0C5 /* AppDelegate.swift */,
-				35DA2EBE203263A7002AD0C5 /* ViewController.swift */,
-				35DA2EC0203263A7002AD0C5 /* Main.storyboard */,
-				35DA2EC3203263A7002AD0C5 /* Assets.xcassets */,
-				35DA2EC5203263A7002AD0C5 /* LaunchScreen.storyboard */,
+				35DA2ED120326B10002AD0C5 /* View Controllers */,
+				35DA2ED020326AC1002AD0C5 /* Storyboards */,
+				35DA2ED220326B2E002AD0C5 /* Images */,
+				35DA2ED320326B44002AD0C5 /* Classes */,
 				35DA2EC8203263A7002AD0C5 /* Info.plist */,
 			);
 			path = RajPatel_Assignment1;
+			sourceTree = "<group>";
+		};
+		35DA2ED020326AC1002AD0C5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				35DA2EC0203263A7002AD0C5 /* Main.storyboard */,
+				35DA2EC5203263A7002AD0C5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		35DA2ED120326B10002AD0C5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35DA2EBE203263A7002AD0C5 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		35DA2ED220326B2E002AD0C5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				35DA2EDC203274E6002AD0C5 /* Button2.png */,
+				35DA2EDA2032744C002AD0C5 /* homeIcon.png */,
+				35DA2ED420326E4B002AD0C5 /* bg-image.jpeg */,
+				35DA2EC3203263A7002AD0C5 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		35DA2ED320326B44002AD0C5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35DA2EBC203263A7002AD0C5 /* AppDelegate.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +166,10 @@
 			files = (
 				35DA2EC7203263A7002AD0C5 /* LaunchScreen.storyboard in Resources */,
 				35DA2EC4203263A7002AD0C5 /* Assets.xcassets in Resources */,
+				35DA2ED520326E4B002AD0C5 /* bg-image.jpeg in Resources */,
 				35DA2EC2203263A7002AD0C5 /* Main.storyboard in Resources */,
+				35DA2EDD203274E6002AD0C5 /* Button2.png in Resources */,
+				35DA2EDB2032744C002AD0C5 /* homeIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
