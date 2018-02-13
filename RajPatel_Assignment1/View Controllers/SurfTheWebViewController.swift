@@ -10,10 +10,18 @@ import UIKit
 
 class SurfTheWebViewController: UIViewController {
 
+    @IBOutlet var webpage: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let urlAddress = URL(string: "https://www.google.ca")
+        let url = URLRequest(url: urlAddress!)
+        
+        webpage.loadRequest(url as URLRequest)
+        
     }
 
     override func didReceiveMemoryWarning() {
