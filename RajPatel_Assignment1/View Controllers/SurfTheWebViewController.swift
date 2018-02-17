@@ -8,9 +8,21 @@
 
 import UIKit
 
-class SurfTheWebViewController: UIViewController {
+class SurfTheWebViewController: UIViewController, UIWebViewDelegate {
 
     @IBOutlet var webpage: UIWebView!
+    @IBOutlet var activity: UIActivityIndicatorView!
+    
+    //functions to show/hide activity indicator
+    func webViewDidStartLoad(_ webView: UIWebView) {
+        activity.isHidden = false
+        activity.startAnimating()
+    }
+    
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        activity.isHidden = true
+        activity.stopAnimating()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
