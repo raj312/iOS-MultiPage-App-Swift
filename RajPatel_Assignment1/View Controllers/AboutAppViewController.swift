@@ -10,10 +10,18 @@ import UIKit
 
 class AboutAppViewController: UIViewController {
 
+    @IBOutlet var profileImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // Make my image round
+        profileImage.layer.cornerRadius = profileImage.frame.size.width/2
+        profileImage.clipsToBounds = true
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

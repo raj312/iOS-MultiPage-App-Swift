@@ -106,10 +106,17 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RajPic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sf3-4l-vl7">
+                                <rect key="frame" x="67" y="64" width="240" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ihJ-Bq-zhL"/>
                     </view>
+                    <connections>
+                        <outlet property="profileImage" destination="sf3-4l-vl7" id="Ag5-a9-CSH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5hW-Jz-PHS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="0US-Q6-OFl" userLabel="Exit" sceneMemberID="exit"/>
@@ -401,6 +408,7 @@
     </scenes>
     <resources>
         <image name="Button2.png" width="300" height="100"/>
+        <image name="RajPic.jpg" width="988" height="1920"/>
         <image name="bg-image.jpeg" width="521" height="582"/>
         <image name="homeIcon.png" width="512" height="512"/>
     </resources>
