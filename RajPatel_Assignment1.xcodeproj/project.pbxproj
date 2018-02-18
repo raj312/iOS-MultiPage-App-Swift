@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35AE1A262038F96400C5CE18 /* RajPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35AE1A252038F96400C5CE18 /* RajPic.jpg */; };
 		35DA2EBD203263A7002AD0C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2EBC203263A7002AD0C5 /* AppDelegate.swift */; };
 		35DA2EBF203263A7002AD0C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2EBE203263A7002AD0C5 /* ViewController.swift */; };
 		35DA2EC2203263A7002AD0C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DA2EC0203263A7002AD0C5 /* Main.storyboard */; };
@@ -15,9 +16,13 @@
 		35DA2ED520326E4B002AD0C5 /* bg-image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35DA2ED420326E4B002AD0C5 /* bg-image.jpeg */; };
 		35DA2EDB2032744C002AD0C5 /* homeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DA2EDA2032744C002AD0C5 /* homeIcon.png */; };
 		35DA2EDD203274E6002AD0C5 /* Button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DA2EDC203274E6002AD0C5 /* Button2.png */; };
+		35DA2EE1203278BF002AD0C5 /* AboutYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2EE0203278BF002AD0C5 /* AboutYouViewController.swift */; };
+		35DA2EE320327A71002AD0C5 /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2EE220327A71002AD0C5 /* AboutAppViewController.swift */; };
+		35DA2EE520327B3A002AD0C5 /* SurfTheWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2EE420327B3A002AD0C5 /* SurfTheWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35AE1A252038F96400C5CE18 /* RajPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RajPic.jpg; sourceTree = "<group>"; };
 		35DA2EB9203263A7002AD0C5 /* RajPatel_Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RajPatel_Assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DA2EBC203263A7002AD0C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35DA2EBE203263A7002AD0C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +33,9 @@
 		35DA2ED420326E4B002AD0C5 /* bg-image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-image.jpeg"; sourceTree = "<group>"; };
 		35DA2EDA2032744C002AD0C5 /* homeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeIcon.png; sourceTree = "<group>"; };
 		35DA2EDC203274E6002AD0C5 /* Button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button2.png; sourceTree = "<group>"; };
+		35DA2EE0203278BF002AD0C5 /* AboutYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutYouViewController.swift; sourceTree = "<group>"; };
+		35DA2EE220327A71002AD0C5 /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
+		35DA2EE420327B3A002AD0C5 /* SurfTheWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfTheWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				35DA2EBE203263A7002AD0C5 /* ViewController.swift */,
+				35DA2EE0203278BF002AD0C5 /* AboutYouViewController.swift */,
+				35DA2EE220327A71002AD0C5 /* AboutAppViewController.swift */,
+				35DA2EE420327B3A002AD0C5 /* SurfTheWebViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -89,6 +100,7 @@
 		35DA2ED220326B2E002AD0C5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				35AE1A252038F96400C5CE18 /* RajPic.jpg */,
 				35DA2EDC203274E6002AD0C5 /* Button2.png */,
 				35DA2EDA2032744C002AD0C5 /* homeIcon.png */,
 				35DA2ED420326E4B002AD0C5 /* bg-image.jpeg */,
@@ -170,6 +182,7 @@
 				35DA2EC2203263A7002AD0C5 /* Main.storyboard in Resources */,
 				35DA2EDD203274E6002AD0C5 /* Button2.png in Resources */,
 				35DA2EDB2032744C002AD0C5 /* homeIcon.png in Resources */,
+				35AE1A262038F96400C5CE18 /* RajPic.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,8 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35DA2EE520327B3A002AD0C5 /* SurfTheWebViewController.swift in Sources */,
 				35DA2EBF203263A7002AD0C5 /* ViewController.swift in Sources */,
 				35DA2EBD203263A7002AD0C5 /* AppDelegate.swift in Sources */,
+				35DA2EE320327A71002AD0C5 /* AboutAppViewController.swift in Sources */,
+				35DA2EE1203278BF002AD0C5 /* AboutYouViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
