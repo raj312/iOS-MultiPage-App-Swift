@@ -12,6 +12,13 @@
     <customFonts key="customFonts">
         <array key="HelveticaNeue.ttc">
             <string>HelveticaNeue</string>
+            <string>HelveticaNeue-BoldItalic</string>
+        </array>
+        <array key="Kailasa.ttc">
+            <string>Kailasa</string>
+        </array>
+        <array key="Zapfino.ttf">
+            <string>Zapfino</string>
         </array>
     </customFonts>
     <scenes>
@@ -106,10 +113,39 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RajPic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sf3-4l-vl7">
+                                <rect key="frame" x="67" y="64" width="240" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RAJ PATEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9B-cH-veM">
+                                <rect key="frame" x="28" y="278" width="319" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iOS Developer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlI-Y5-nyI">
+                                <rect key="frame" x="98" y="329" width="179" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ld6-vY-fKj">
+                                <rect key="frame" x="28" y="366" width="319" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hello, I am an iOS/Front-end Web Developer who is passionate about developing simple interfaces to solve complex UI problems. I have been developing accessible UI features for quite some time now using Swift, HTML, CSS, JavaScript as part of my main technology stack. If you are really interested in knowing more about me, shoot me an email [raj312.raj312@gmail.com] or follow me on LinkedIn [username = raj312].</string>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ihJ-Bq-zhL"/>
                     </view>
+                    <connections>
+                        <outlet property="profileImage" destination="sf3-4l-vl7" id="Ag5-a9-CSH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5hW-Jz-PHS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="0US-Q6-OFl" userLabel="Exit" sceneMemberID="exit"/>
@@ -401,6 +437,7 @@
     </scenes>
     <resources>
         <image name="Button2.png" width="300" height="100"/>
+        <image name="RajPic.jpg" width="988" height="1920"/>
         <image name="bg-image.jpeg" width="521" height="582"/>
         <image name="homeIcon.png" width="512" height="512"/>
     </resources>
