@@ -15,6 +15,12 @@ class AboutYouViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var lbAge: UILabel!
     @IBOutlet var lbGender: UILabel!
     @IBOutlet var switchGender: UISwitch!
+    //avatar buttons
+    @IBOutlet var btnFirst: UIButton!
+    @IBOutlet var btnSecond: UIButton!
+    @IBOutlet var btnThird: UIButton!
+    
+    var imgAvatar: String?
     
     //function to hide keyboard
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -51,6 +57,26 @@ class AboutYouViewController: UIViewController, UITextFieldDelegate {
         }else {
             lbGender.text = "Female"
         }
+    }
+    
+    @IBAction func avatarSelected(sender: UIButton) {
+        switch sender.tag {
+        case 0:
+            //first avatar is selected
+            imgAvatar = "firstAvatar.png"
+            break
+        case 1:
+            //second avatar is selected
+            imgAvatar = "secondAvatar.png"
+            break
+        case 2:
+            //third avatar is selected
+            imgAvatar = "thirdAvatar.png"
+            break
+        default: break
+            //do nothing
+        }
+        print(imgAvatar ?? "")
     }
     
     override func viewDidLoad() {
